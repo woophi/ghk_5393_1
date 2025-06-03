@@ -163,7 +163,7 @@ const FOND_TRADE_CONDITION_1 = 0.049;
 const FOND_TRADE_CONDITION_2 = 0.02;
 
 const SDUI_LINK =
-  'alfabank://sdui_screen?screenName=InvestmentLongread&fromCurrent=true&endpoint=v1/invest-main-screen-view/investment-longread/55889%3flocation=AM%26campaignCode=gh5393_var1';
+  'alfabank://sdui_screen?screenName=InvestmentLongread&fromCurrent=true&endpoint=v1/invest-main-screen-view/investment-longread/55875%3flocation=AM%26campaignCode=GH5393__var1';
 
 export const App = () => {
   const [loading, setLoading] = useState(false);
@@ -215,7 +215,7 @@ export const App = () => {
     setOpenBs(false);
   };
   const closeMoreInfo = () => {
-    setOpenBs(false);
+    setOpenMInfo(false);
   };
 
   return (

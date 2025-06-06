@@ -165,8 +165,7 @@ const tableData = [
 
 const FOND_TRADE_CONDITION_1 = 0.049;
 
-const SDUI_LINK =
-  'alfabank://sdui_screen?screenName=InvestmentLongread&fromCurrent=true&endpoint=v1/invest-main-screen-view/investment-longread/55875%3flocation=AM%26campaignCode=GH5393__var1';
+const SDUI_LINK = 'alfabank://longread?endpoint=v1/adviser/longreads/56704';
 
 if (LS.getItem(LSKeys.ShowThx, false)) {
   window.location.replace(SDUI_LINK);
